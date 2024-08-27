@@ -1,4 +1,7 @@
-## Hi there 👋
+![GNfw0xwaAAAJ2x9](https://github.com/user-attachments/assets/6a8cf203-96a1-4247-9c81-b798fdaad47a)
+
+🔭 I’m currently working on this page
+- 🌱 I’m currently learning python
 
 <!--
 **strix52/strix52** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
