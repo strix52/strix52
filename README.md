@@ -1,37 +1,26 @@
-<div align="center">
+Hi, I'm Ayush. I build small apps for my own Windows PC and Android phone, and publish the ones I keep using. Most ship as a single executable and keep their data on my devices.
 
-# Ayush Raj
+### [dictap](https://github.com/strix52/dictap)
 
-### Local-first tools for my own machines — Windows desktop, Android, and the browser.
+Voice typing for Windows. Press <kbd>Ctrl</kbd> + <kbd>Win</kbd>, talk, press it again, and the text is pasted at your cursor. Transcription runs on the Gemini API with your own key; the app is one 2.2 MB exe that idles at about 15 MB of RAM.
 
-[![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)](https://github.com/strix52/ferry)
-[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://github.com/strix52/calory-track)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/strix52/cabinet-press)
-[![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/strix52/ferry)
+<a href="https://github.com/strix52/dictap"><img src="https://raw.githubusercontent.com/strix52/dictap/main/docs/images/demo.gif" width="640" alt="dictap showing a live transcript while someone speaks"></a>
 
-</div>
+Rust, plain Win32 · [Download](https://github.com/strix52/dictap/releases/latest)
 
-## Projects
+### [Ferry](https://github.com/strix52/ferry)
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [ferry](https://github.com/strix52/ferry) | One shared thread between a Windows laptop and a phone browser on the same network. No account, no cloud drive, no cable. | C#, WPF, Kestrel, SQLite |
-| [calory-track](https://github.com/strix52/calory-track) | Android food journal that imports LLM-estimated nutrition and syncs it to Health Connect. | Kotlin |
-| [cabinet-press](https://github.com/strix52/cabinet-press) | Source-grounded micro-exhibitions that show their evidence, testimony, and interpretation. | TypeScript |
-| [study-desk](https://github.com/strix52/study-desk) | Offline study app for working through a course in order. | TypeScript, React, Vite, Express |
-| [covid_dashboard](https://github.com/strix52/covid_dashboard) | Archival site for reported COVID-19 data, 2020 to 2024. Installable and works offline. | Vanilla JS, service worker |
+Notes and files between a Windows laptop and a phone on the same Wi-Fi. The laptop runs the server, the phone opens it in a browser tab. No account, no cloud drive, no cable.
 
-## How these fit together
+<a href="https://github.com/strix52/ferry"><img src="https://raw.githubusercontent.com/strix52/ferry/main/assets/ferry-windows.png" height="300" alt="Ferry on Windows"></a>
+<a href="https://github.com/strix52/ferry"><img src="https://raw.githubusercontent.com/strix52/ferry/main/assets/ferry-phone.png" height="300" alt="The same Ferry thread in a phone browser"></a>
 
-Almost everything here runs on hardware I own and keeps working with the network off. Ferry never leaves the LAN, calory-track keeps its journal on the device, and study-desk and the COVID archive both load offline. Small scope, inspectable data, recoverable state.
+C#, WPF, in-process Kestrel, SQLite · [Download](https://github.com/strix52/ferry/releases/latest)
 
-## Current focus
+### Also
 
-```text
-Desktop     C#, WPF, in-process Kestrel, notification-area apps
-Android     Kotlin, Health Connect
-Web         TypeScript, React, Vite, small Express backends
-Workflow    Komorebi, YASB, whkd, PowerShell
-```
+- **[calory-track](https://github.com/strix52/calory-track)**: Android food journal. Ask any LLM to estimate a meal, paste the JSON it returns, and the app keeps the log and syncs it to Health Connect. Kotlin, Jetpack Compose.
+- **[cabinet-press](https://github.com/strix52/cabinet-press)**: my OpenAI Build Week 2026 entry (Education track). It turns five object photos and five first-person notes into a small static exhibition where every claim is labelled as evidence, testimony or interpretation. TypeScript.
+- **[study-desk](https://github.com/strix52/study-desk)**: points at a downloaded video course and gives you a week-by-week curriculum with resume, progress and notes, all offline. React, Vite, Express.
 
-Still learning most of this. I ship small projects to find out what I actually understand.
+<sub>Daily setup: Windows 11 with Komorebi, YASB and whkd.</sub>
