@@ -1,10 +1,10 @@
-Hi, I'm Ayush. I build small apps for my own Windows PC and Android phone, and publish the ones I keep using. Most ship as a single executable and keep their data on my devices.
+Hi, I'm Ayush, a software developer. I've shipped Windows apps in Rust and C#, an Android app in Kotlin, and web tools in TypeScript, and I pick up whatever stack the next project needs. The first two below I use every day.
 
 ### [dictap](https://github.com/strix52/dictap)
 
 Voice typing for Windows. Press <kbd>Ctrl</kbd> + <kbd>Win</kbd>, talk, press it again, and the text is pasted at your cursor. Transcription runs on the Gemini API with your own key; the app is one 2.2 MB exe that idles at about 15 MB of RAM.
 
-<a href="https://github.com/strix52/dictap"><img src="https://raw.githubusercontent.com/strix52/dictap/main/docs/images/demo.gif" width="640" alt="dictap showing a live transcript while someone speaks"></a>
+<a href="https://github.com/strix52/dictap"><img src="https://raw.githubusercontent.com/strix52/dictap/main/docs/images/demo.gif" width="560" alt="dictap showing a live transcript while someone speaks"></a>
 
 Rust, plain Win32 · [Download](https://github.com/strix52/dictap/releases/latest)
 
@@ -12,8 +12,8 @@ Rust, plain Win32 · [Download](https://github.com/strix52/dictap/releases/lates
 
 Notes and files between a Windows laptop and a phone on the same Wi-Fi. The laptop runs the server, the phone opens it in a browser tab. No account, no cloud drive, no cable.
 
-<a href="https://github.com/strix52/ferry"><img src="https://raw.githubusercontent.com/strix52/ferry/main/assets/ferry-windows.png" height="300" alt="Ferry on Windows"></a>
-<a href="https://github.com/strix52/ferry"><img src="https://raw.githubusercontent.com/strix52/ferry/main/assets/ferry-phone.png" height="300" alt="The same Ferry thread in a phone browser"></a>
+<a href="https://github.com/strix52/ferry"><img src="https://raw.githubusercontent.com/strix52/ferry/main/assets/ferry-windows.png" height="260" alt="Ferry on Windows"></a>
+<a href="https://github.com/strix52/ferry"><img src="https://raw.githubusercontent.com/strix52/ferry/main/assets/ferry-phone.png" height="260" alt="The same Ferry thread in a phone browser"></a>
 
 C#, WPF, in-process Kestrel, SQLite · [Download](https://github.com/strix52/ferry/releases/latest)
 
