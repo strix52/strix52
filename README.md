@@ -4,7 +4,7 @@ Hi, I'm Ayush, a software developer. I've shipped Windows apps in Rust and C#, a
 
 Voice typing for Windows. Press <kbd>Ctrl</kbd> + <kbd>Win</kbd>, talk, press it again, and the text is pasted at your cursor. Transcription runs on the Gemini API with your own key; the app is one 2.2 MB exe that idles at about 15 MB of RAM.
 
-<a href="https://github.com/strix52/dictap"><img src="https://raw.githubusercontent.com/strix52/dictap/main/docs/images/demo.gif" width="560" alt="dictap showing a live transcript while someone speaks"></a>
+<a href="https://github.com/strix52/dictap"><img src="https://raw.githubusercontent.com/strix52/dictap/main/docs/images/promo.webp" width="560" alt="36-second dictap film: press Ctrl + Win, talk, and the text is pasted at your cursor"></a>
 
 Rust, plain Win32 · [Download](https://github.com/strix52/dictap/releases/latest)
 
